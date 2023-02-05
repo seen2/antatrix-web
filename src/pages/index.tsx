@@ -1,4 +1,5 @@
 import Banner from "@/components/Banner";
+import HowWeWork from "@/components/HowWeWork";
 import TechStacks from "@/components/TechStacks";
 import Footer from "@/layouts/Footer";
 import Header from "@/layouts/Header";
@@ -10,6 +11,7 @@ export default function Home() {
     <SSRProvider>
         <Header />
         <Banner />
+        <HowWeWork />
         <TechStacks />
     </SSRProvider>
   );
