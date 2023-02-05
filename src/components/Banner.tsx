@@ -1,58 +1,53 @@
-import MobileBanner from "../../public/Native-Development.jpg";
 import WebDevBanner from "../../public/WebDev.jpg";
-
+import AppDevBanner from "../../public/AppDev.jpg";
+// import SolutionsBanner from "../../public/Solutions.jpg";
 
 import Image from "next/image";
 
 import Carousel from "react-bootstrap/Carousel";
-import Bubble from "./Bubble";
+
+import EnquiryForm from "./EnquiryForm";
 
 function UncontrolledExample() {
   return (
     <Carousel>
       <Carousel.Item>
-      <Image
-        className="bg-dark d-block w-100"
-        height={350}
-        width={100}
-        src={WebDevBanner}
-        quality={100}
-        alt="Picture of the author"
-        
-        />
-        
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          
-        </Carousel.Caption>
-        
-      </Carousel.Item>
-      <Carousel.Item>
-      <Image
-        className="bg-dark d-block w-100"
-        height={350}
-        src={MobileBanner}
-        quality={100}
-        alt="Picture of the author"
-        width={"100"}
+        <Image
+          className="d-block w-100"
+          src={WebDevBanner}
+          height={360}
+          // unoptimized
+          quality={90}
+          alt="Picture of the author"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Full stack Website Development</h3>
+          <p>Complete Website Solution.</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <div className="bg-dark d-block w-100">
-          <Bubble />
-        </div>
+        <Image
+          className="d-block w-100"
+          src={AppDevBanner}
+          // unoptimized
+          height={360}
+
+          quality={90}
+          alt="Picture of the author"
+        />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
+          <h3>Full stack Application</h3>
+          <p>Full stack Native Application Development</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <EnquiryForm  />
+
+        <Carousel.Caption>
+          {/* <h3>Services</h3>
+          <p>Enquiry</p> */}
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

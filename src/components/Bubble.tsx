@@ -3,7 +3,7 @@ import styles from "../styles/Bubble.module.css";
 
 export default function Bubble() {
   return (
-    <div   >
+    <div className="bg-dark"  >
       <div className={styles.bubble}>
         <span></span>
         <span></span>
