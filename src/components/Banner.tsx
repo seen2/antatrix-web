@@ -15,7 +15,7 @@ function UncontrolledExample() {
         <Image
           className="d-block w-100"
           src={WebDevBanner}
-          height={360}
+          height={390}
           // unoptimized
           quality={90}
           alt="Picture of the author"
@@ -31,7 +31,7 @@ function UncontrolledExample() {
           className="d-block w-100"
           src={AppDevBanner}
           // unoptimized
-          height={360}
+          height={390}
 
           quality={90}
           alt="Picture of the author"

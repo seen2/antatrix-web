@@ -13,6 +13,7 @@ export default function Home() {
         <Banner />
         <HowWeWork />
         <TechStacks />
+        <Footer />
     </SSRProvider>
   );
 }

@@ -13,7 +13,7 @@ export default function HowWeWork() {
       }}
       className="bg-dark"
     >
-      <h1 className="d-flex text-light justify-content-center">
+      <h1 className="d-flex text-light justify-content-center ">
         Our Work Flow
       </h1>
       <hr />
@@ -29,14 +29,14 @@ export default function HowWeWork() {
         <ProcessIcon />
       </div>
 
-      <div className="d-flex flex-row text-light flex-wrap justify-content-around">
-        <h3>1. Requirement Gethering </h3>
-        <h3>2. Architecture Desgining </h3>
-        <h3>3. Development </h3>
-        <h3>4. Testing & Quality Analysis </h3>
-        <h3>5. Delivery </h3>
-        <h3>6. Maintainence & Support</h3>
-      </div>
+      <div className="d-flex flex-lg-row text-light flex-wrap justify-content-between">
+        <li className="lead">Requirement Gethering </li>
+        <li className="lead">Architecture Desgining </li>
+        <li className="lead">Development </li>
+        <li className="lead">Testing & Quality Analysis </li>
+        <li className="lead">Delivery </li>
+        <li className="lead">Maintainence & Support</li>
+        </div>
     </div>
   );
 }

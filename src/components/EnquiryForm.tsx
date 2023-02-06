@@ -9,7 +9,7 @@ import Image from "next/image";
 
 export default function EnquiryForm() {
   return (
-    <div style={{height:360}} className="bg-dark border-top " >
+    <div style={{height:390}} className="bg-dark border-top " >
       <Stack  gap={4}>
       {/* <Image
         src={Logo}
@@ -24,7 +24,7 @@ export default function EnquiryForm() {
         />
         <TextArea  placeholder="Enter the description of what you need" title="Description" />
 
-        <Button variant="primary">Get Your Quote</Button>
+        <Button variant="primary">Get Your Quot...</Button>
        <br/>
       </Stack>
       <br />
