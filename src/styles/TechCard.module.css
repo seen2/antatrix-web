@@ -24,8 +24,8 @@
     width: 100px;
     background-image: linear-gradient(180deg, #e47d51, #EA5A3E);
     height: 130%;
-    animation: rotBGimg 3s linear infinite;
-    transition: all 0.2s linear;
+    animation: rotBGimg 10s linear infinite;
+    transition: all 0.3s linear;
   }
   
   @keyframes rotBGimg {
