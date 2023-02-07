@@ -4,13 +4,15 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../../public/BrandLogo.png";
+import Link from 'next/link';
+import { Colors } from '@/util/constants';
 
 
 function BasicExample() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
+    <Navbar sticky="top" bg="dark" variant="dark" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand href="/">
         <Image
         src={Logo}
         alt="Picture of the author"
@@ -21,20 +23,16 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
-            <Nav.Link href="#home">Home</Nav.Link>
+          <Link className='nav-link' href={"/"}>Home</Link>
             <Nav.Link href="#link">Enquiry</Nav.Link>
-            <Nav.Link href="#link">Careers</Nav.Link>
-            <Nav.Link href="#link">About</Nav.Link>
+            <Link className='nav-link' href={"/careers"}>Careers</Link>
+            <Link className='nav-link' href={"/about"}>About</Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Our Team</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Pricing
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Testimonials</NavDropdown.Item>
+              <Link className='dropdown-item' href={"/team"}>Our Team</Link>
+              <Link className='dropdown-item' href={"/pricing"}>Pricing</Link>
+              <Link className='dropdown-item' href={"/testimonials"}>Testimonials</Link>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-              Contact Us
-              </NavDropdown.Item>
+              <Link className='dropdown-item' href={"/contact_us"}>Contact Us</Link>
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

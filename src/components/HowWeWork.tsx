@@ -13,9 +13,9 @@ export default function HowWeWork() {
       }}
       className="bg-dark"
     >
-      <h1 className="d-flex text-light justify-content-center ">
+      <p className="d-flex display-3 text-light justify-content-center ">
         Our Work Flow
-      </h1>
+      </p>
       <hr />
 
       <div

@@ -12,8 +12,9 @@ import AppStoreLogo from "../../public/app-store.png";
 export default function TechStacks() {
   return (
     <div className='pb-20 bg-dark text-light ' >
+
         <h1 className='d-flex justify-content-center display-6'>
-        <u>Tech-Stacks</u>
+        Solutions & Services
         </h1>
         <div className=' d-flex bg-dark text-light flex-row  justify-content-around flex-wrap'>
 

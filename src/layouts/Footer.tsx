@@ -7,6 +7,8 @@ export default function Footer() {
   return (
     <div className='bg-dark  p-100 text-light' >
       <h3 className=' text-center display-6'><u>Reach to us</u></h3>
+      <hr/>
+
       
       <div className="d-flex flex-wrap justify-content-around">
 
@@ -14,7 +16,7 @@ export default function Footer() {
       <UsefulLinks />
       <DigitalContactView />
       </div>
-
+      <hr/>
       <p className='lead text-center'>All right reserved Antatrix @ 2023</p>
       
     </div>

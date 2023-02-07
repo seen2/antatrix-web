@@ -7,6 +7,7 @@ import WhatsappLogo from "../../public/whatsapp.png";
 import LinkedinLogo from "../../public/linkedin.png";
 import YoutubeLogo from "../../public/youtube.png";
 import Logo from "../../public/BrandLogo.png";
+import Link from 'next/link';
 
 
 
@@ -16,10 +17,16 @@ export default function UsefulLinks() {
         
         <p className='lead'>Links </p>
         
-        <p className='lead' >About Us</p>
-        <p className='lead' >Our Team</p>
-        <p className='lead' >Services</p>
-        <p className='lead' >Pricing</p>
+        <Link className="lead" href={"/about"}>About Us</Link>
+        <br/>
+        <Link className="lead" href={"/team"}>Our Team</Link>
+        <br/>
+        <Link className="lead" href={"/testimonials"}>Testimonials</Link>
+        <br/>
+        <Link className="lead" href={"/pricing"}>Pricing</Link>
+        <br/>
+        <Link className="lead" href={"/"}>Home</Link>
+
     </div>
   )
 }
