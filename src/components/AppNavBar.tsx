@@ -6,6 +6,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Logo from "../../public/BrandLogo.png";
 import Link from 'next/link';
 import { Colors } from '@/util/constants';
+import { EnquiryModal } from './EnquiryModal';
 
 
 function BasicExample() {
@@ -24,7 +25,7 @@ function BasicExample() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
           <Link className='nav-link' href={"/"}>Home</Link>
-            <Nav.Link href="#link">Enquiry</Nav.Link>
+            <EnquiryModal ><Nav.Link onClick={()=>{}}>Enquiry</Nav.Link></EnquiryModal>
             <Link className='nav-link' href={"/careers"}>Careers</Link>
             <Link className='nav-link' href={"/about"}>About</Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
