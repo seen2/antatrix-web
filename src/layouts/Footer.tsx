@@ -6,7 +6,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div className='bg-dark  p-100 text-light' >
-      <h3 className=' text-center display-6'><u>Reach to us</u></h3>
+      <h3 className=' text-center text-muted display-6'><u>Reach to us</u></h3>
       <hr/>
 
       
