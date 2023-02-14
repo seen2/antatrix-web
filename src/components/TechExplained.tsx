@@ -15,10 +15,10 @@ export default function TechExplained(props: { title: string, content?: string, 
         <StyledBordered><h2 className='h2 text-center text-info'>{props.title || "Web Development"}</h2></StyledBordered>
       </div>
       <br />
-      <div className="d-flex flex-row flex-wrap justify-content-around rounded">
+      <div className="d-flex flex-row flex-wrap justify-content-around  shadow-lg p-3 mb-5 bg-body-tertiary rounded">
         <Image
           src={props.image || WebDevBanner}
-          className="img-fluid"
+          className="img-fluid shadow-lg p-3 mb-5 bg-body-tertiary rounded"
 
           // unoptimized
           quality={90}
