@@ -16,7 +16,7 @@ export default function Team() {
         if(a.name<b.name) return -1;
         else return 0;
         
-      }).map(member=><MemberView {...member} />)}
+      }).map(member=><MemberView key={member.description+"0"} {...member} />)}
       </div>
       <Footer />
     </div>

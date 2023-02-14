@@ -12,7 +12,7 @@ export default function Pricing() {
     <div className='bg-dark text-light' >
       <Header />
       <p className='h1 container'>Our Pricing</p>
-      {services.map(service=><TechExplained title={service.title} image={service.images} content={service.content} price={service.price} feaures={service.features} />)}
+      {services.map(service=><TechExplained key={service.price} title={service.title} image={service.images} content={service.content} price={service.price} feaures={service.features} />)}
 
       
       <Footer />
