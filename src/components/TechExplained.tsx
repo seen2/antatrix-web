@@ -38,6 +38,7 @@ export default function TechExplained(props: { title: string, content?: string, 
         NOTE: All prices are excluding any taxes applicable by state or central government.
          Further Customization or enhancement will increase the cost and reducing the feature will reduce cost.
       </p>
+    <p className="text-info h1">Inside:</p>
         <div className="d-block justify-content-center">
           {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h2 border-top border-end border-start shadow-lg p-3 mb-5 bg-body-tertiary rounded border-primary text-center">{feature}</p>))}
         
