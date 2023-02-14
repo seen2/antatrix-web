@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 export default function MemberView(props:{name:string,designation:string,description:string,image:StaticImageData}) {
   return (
-    <Card className='bg-dark text-light' style={{ width: '25rem' }}>
+    <Card className='bg-dark text-light shadow-lg p-3 mb-5 bg-body-tertiary' style={{ width: '25rem' }}>
       <Image
       src={props.image}
       alt="Name"
