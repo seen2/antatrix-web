@@ -38,8 +38,8 @@ export default function TechExplained(props: { title: string, content?: string, 
         NOTE: All prices are excluding any taxes applicable by state or central government.
          Further Customization or enhancement will increase the cost and reducing the feature will reduce cost.
       </p>
-        <div className="d-flex flex-row flex-wrap justify-content-around">
-          {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h3 text-center"><li>{feature}</li></p>))}
+        <div className="d-block justify-content-center">
+          {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h3 border rounded text-center">{feature}</p>))}
         
         </div>
       <u>All rights reserved @2023 Antatrix</u>
