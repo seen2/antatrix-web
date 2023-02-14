@@ -13,9 +13,9 @@ export default function TechStacks() {
   return (
     <div className='pb-20 bg-dark text-light ' >
 
-        <h1 className='d-flex justify-content-center display-6'>
+        <p className=' text-center display-3 rounded shadow-lg p-3 mb-5 bg-body-tertiary'>
         Solutions & Services
-        </h1>
+        </p>
         <div className=' d-flex bg-dark text-light flex-row  justify-content-around flex-wrap'>
 
         <TechCard images={[NextLogo,ReactLogo,SqlLogo,NodeLogo]} title='Web Development' />

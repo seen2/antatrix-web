@@ -13,7 +13,7 @@ export default function HowWeWork() {
       className="bg-dark"
     >
       <div >
-      <p className="display-3 text-light text-center ">
+      <p className=" display-3 text-light text-center shadow-lg p-3 mb-5 bg-body-tertiary">
         Our Work Flow
       </p>
       <div
@@ -33,12 +33,12 @@ export default function HowWeWork() {
 
       }} className=" text-light">
 
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Requirement Gethering </p>
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Architecture Desgining </p>
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Development </p>
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Testing & Quality Analysis </p>
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Delivery </p>
-        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Maintainence & Support</p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Requirement Gethering </p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Architecture Desgining </p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Development </p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Testing & Quality Analysis </p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Delivery </p>
+        <p className="h2 container border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Maintainence & Support</p>
       </div>
     </div>
   );
