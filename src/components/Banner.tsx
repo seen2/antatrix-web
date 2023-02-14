@@ -28,7 +28,7 @@ function UncontrolledExample() {
       </Carousel.Item>
       <Carousel.Item>
         <Image
-          className="d-block w-100"
+          className="d-block w-100 "
           src={AppDevBanner}
           // unoptimized
           height={390}

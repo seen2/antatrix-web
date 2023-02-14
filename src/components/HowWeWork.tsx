@@ -5,7 +5,6 @@ export default function HowWeWork() {
   return (
     <div
       style={{
-        height: 500,
         padding: 30,
         display: "flex",
         flexDirection: "column",
@@ -13,30 +12,34 @@ export default function HowWeWork() {
       }}
       className="bg-dark"
     >
-      <p className="d-flex display-3 text-light justify-content-center ">
+      <div >
+      <p className="display-3 text-light text-center ">
         Our Work Flow
       </p>
-      <hr />
-
       <div
         style={{
-          height: 200,
-          padding: 30,
+          padding: 70,
           display: "flex",
           justifyContent: "center",
         }}
       >
         <ProcessIcon />
       </div>
+      </div>
 
-      <div className="d-flex flex-lg-row text-light flex-wrap justify-content-between">
-        <li className="lead">Requirement Gethering </li>
-        <li className="lead">Architecture Desgining </li>
-        <li className="lead">Development </li>
-        <li className="lead">Testing & Quality Analysis </li>
-        <li className="lead">Delivery </li>
-        <li className="lead">Maintainence & Support</li>
-        </div>
+      <div style={{
+        display: "block",
+        padding:20
+
+      }} className=" text-light">
+
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Requirement Gethering </p>
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Architecture Desgining </p>
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Development </p>
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Testing & Quality Analysis </p>
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Delivery </p>
+        <p className="h2 border-top border-start text-center shadow-lg p-3 mb-5 bg-body-tertiary rounded border-secondary">Maintainence & Support</p>
+      </div>
     </div>
   );
 }

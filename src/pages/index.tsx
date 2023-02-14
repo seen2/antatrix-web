@@ -9,11 +9,13 @@ import { SSRProvider } from "react-bootstrap";
 export default function Home() {
   return (
     <SSRProvider>
+        <div className="content-1">
         <Header />
         <Banner />
         <HowWeWork />
         <TechStacks />
         <Footer />
+        </div>
     </SSRProvider>
   );
 }
