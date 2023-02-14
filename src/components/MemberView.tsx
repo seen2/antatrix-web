@@ -1,9 +1,7 @@
 import Image, { StaticImageData } from 'next/image';
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-import ManLogo from "../../public/man.png"
 
 
 export default function MemberView(props:{name:string,designation:string,description:string,image:StaticImageData}) {

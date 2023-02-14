@@ -39,7 +39,7 @@ export default function TechExplained(props: { title: string, content?: string, 
          Further Customization or enhancement will increase the cost and reducing the feature will reduce cost.
       </p>
         <div className="d-flex flex-row flex-wrap justify-content-around">
-          {props.feaures.map(feature=>(<p className="h3 text-center"><li>{feature}</li></p>))}
+          {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h3 text-center"><li>{feature}</li></p>))}
         
         </div>
       <u>All rights reserved @2023 Antatrix</u>
