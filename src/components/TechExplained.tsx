@@ -39,7 +39,7 @@ export default function TechExplained(props: { title: string, content?: string, 
          Further Customization or enhancement will increase the cost and reducing the feature will reduce cost.
       </p>
         <div className="d-block justify-content-center">
-          {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h3 border rounded text-center">{feature}</p>))}
+          {props.feaures.map((feature,index)=>(<p key={index+feature+""} className="h2 border-top border-end border-start shadow-lg p-3 mb-5 bg-body-tertiary rounded border-primary text-center">{feature}</p>))}
         
         </div>
       <u>All rights reserved @2023 Antatrix</u>
